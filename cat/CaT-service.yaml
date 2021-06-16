@@ -568,6 +568,7 @@ paths:
           application/vnd.api+json:
             schema:
               type: object
+              title: ProjectName
               properties:
                 name:
                   type: string
@@ -1373,6 +1374,8 @@ paths:
         content:
           application/vnd.api+json:
             schema:
+              type: object
+              title: EventName            
               properties:
                 name:
                   type: string
