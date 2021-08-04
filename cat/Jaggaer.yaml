@@ -2,7 +2,11 @@ openapi: 3.0.0
 info:
   title: Jaggaer API
   description: Conversion of Jaggaer API documentation into Swagger.
+<<<<<<< HEAD
   version: 1.0.0
+=======
+  version: 0.1.10
+>>>>>>> 8895197974f85f1e197a928357954a75311f9320
 servers:
   - description: SwaggerHub API Auto Mocking
     url: >-
@@ -3330,6 +3334,20 @@ components:
           deprecated: true
         otherDateVal:
           type: string
+<<<<<<< HEAD
           description: |
             Value for the date above
           deprecated: true
+=======
+          description: |+
+          	Value for the date above
+          deprecated: true
+          
+    
+            
+            
+    
+            
+    
+          
+>>>>>>> 8895197974f85f1e197a928357954a75311f9320
